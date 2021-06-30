@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    background-color:  #54c3ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fad744;
+}
+h1 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+}
+#questions {
+    width: 100%;
+    background-color: #2b3252;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.question-wrapper {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fad744;;
+}
+#submit {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #fad744;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    align-self: center;
+}
+#result{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    color: #000;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+#result p {
+    font-size: 22px;
+    font-weight: bold;
+}
+#main {
+    display: flex;
+}
